@@ -1,0 +1,32 @@
+# Local working data: print jobs, logs, reports, identity (never publish)
+state/
+.vendor/
+bin/
+.test-output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# HP package, firmware and binaries
+*.exe
+*.dll
+*.cab
+*.img
+*.dl
+*.prn
+*.xqx
+
+# Logs, temporary files, local settings, secrets
+*.log
+*.tmp
+.env
+.claude/
+.codex/
+.vscode/
+.idea/
+
+# Upstream references reviewed but not redistributed (see third_party/SOURCES.md)
+third_party/foo2zjs/foo2xqx-wrapper.in
+third_party/foo2zjs/PPD/

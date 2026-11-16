@@ -1,0 +1,25 @@
+hp-p1006-windows-arm64
+======================
+
+Own code of this project (p1006/, scripts/, tests/, *.cmd,
+third_party/foo2zjs/windows_binary_io.h and the documentation) is licensed
+under the GNU General Public License, version 2 or (at your option) any later
+version (SPDX: GPL-2.0-or-later). The full GPLv2 text is in LICENSE.
+
+Third-party components keep their own copyright and license notices:
+
+- third_party/foo2zjs: foo2xqx, xqxdecode, arm2hpdl and xqx.h from
+  OpenPrinting/foo2zjs (Rick Richardson and contributors), GPL-2.0-or-later.
+  foo2xqx.c, xqxdecode.c and arm2hpdl.c carry local Windows binary I/O changes,
+  marked at the top of each file. See third_party/foo2zjs/COPYING.
+- third_party/jbig: JBIG-KIT 2.1 by Markus Kuhn, GPL-2.0-or-later, unmodified.
+  See third_party/jbig/COPYING.
+
+Provenance, pinned upstream commits and checksums: third_party/SOURCES.md.
+
+HP printer firmware and the HP driver package are proprietary, are NOT part of
+this repository and are NOT covered by the GPL. Users obtain the HP package
+themselves; scripts/prepare.ps1 only extracts it locally.
+
+HP and LaserJet are trademarks of HP Inc. This project is not affiliated with
+or endorsed by HP Inc., Microsoft or Qualcomm.
